@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Root">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="322dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="638dp"
+        android:layout_marginEnd="49dp"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/mapbtn"
+        android:layout_width="322dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="506dp"
+        android:layout_marginEnd="48dp"
+        android:text="Real-Time Epidemic Mapping" />
+
+    <Button
+    android:id="@+id/mapcrowd"
+    android:layout_width="322dp"
+    android:layout_height="60dp"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentEnd="true"
+    android:layout_marginTop="415dp"
+    android:layout_marginEnd="51dp"
+    android:text="Crowdsourcing" />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="322dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="51dp"
+        android:text="Home" />
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="322dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="51dp"
+        android:text="Logout" />
+
+
+
+</RelativeLayout>

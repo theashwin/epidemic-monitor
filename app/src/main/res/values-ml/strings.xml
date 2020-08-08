@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Epidemic Monitor</string>
+    <string name="title_activity_real_time_monitor">Real-Time Epidemic Mapping</string>
+    <string name="title_activity_details">DetailsActivity</string>
+
+    <string name="text1">The museum is housed in the Louvre Palace, originally built as a fortress in the late 12th century…</string>
+    <string name="text2">Gwanghwamun is the main and largest gate of Gyeongbokgung Palace, in Jongno-gu, Seoul, South Korea.</string>
+    <string name="text3">Tower Bridge is a combined bascule and suspension bridge in London built in 1886–1894.</string>
+    <string name="text4">The Temple of Heaven is an imperial complex of religious buildings situated in the southeastern part…</string>
+    <string name="text5">The Aegean Islands are within the sea and some bound it on its southern periphery…</string>
+
+    <string name="report_disease">Report the Disease</string>
+    <string name="age_group">Age Group of the Patient</string>
+    <string name="gender_of_patient">Gender of the Patient</string>
+    <string name="date_of_report">Date of the Report</string>
+    <string name="location">Location</string>
+    <string name="current_location">ഇപ്പോഴുള്ള സ്ഥലം</string>
+    <string name="save_location">ലൊക്കേഷൻ സംരക്ഷിക്കുക</string>
+    <string name="edit_location">Edit Location</string>
+    <string name="male">ആൺ</string>
+    <string name="female">സ്ത്രീ</string>
+    <string name="report">अहवाल</string>
+    <string name="reports">अहवाल</string>
+
+    <string name="aadhaar_mandatory">Aadhaar Authentication is Mandatory for Hospital, Clinics and Media accounts.</string>
+    <string name="aadhaar_optional">Aadhaar Authentication is Optional for Citizen accounts.</string>
+</resources>

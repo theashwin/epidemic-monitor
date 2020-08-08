@@ -1,0 +1,49 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "mit.samaritans.em"
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+}
+
+configurations {
+    all*.exclude group: 'com.google.guava', module: 'listenablefuture'
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.1.0-alpha02'
+    implementation 'com.google.maps.android:android-maps-utils:0.5'
+    implementation 'com.google.android.gms:play-services-maps:16.1.0'
+    implementation 'com.google.android.libraries.places:places:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.google.android.material:material:1.1.0-alpha03'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.browser:browser:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0-alpha02'
+    implementation 'androidx.coordinatorlayout:coordinatorlayout:1.0.0'
+    implementation 'org.mongodb:stitch-android-sdk:4.1.4'
+    implementation 'com.google.android.gms:play-services-auth:16.0.1'
+
+
+
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.1.2-alpha02'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.2-alpha01'
+}

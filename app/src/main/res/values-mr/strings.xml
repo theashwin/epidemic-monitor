@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">महामारी निरीक्षण</string>
+    <string name="title_activity_real_time_monitor">वर्तमान महामारी मॅपिंग</string>
+    <string name="title_activity_details">DetailsActivity</string>
+
+    <string name="text1">The museum is housed in the Louvre Palace, originally built as a fortress in the late 12th century…</string>
+    <string name="text2">Gwanghwamun is the main and largest gate of Gyeongbokgung Palace, in Jongno-gu, Seoul, South Korea.</string>
+    <string name="text3">Tower Bridge is a combined bascule and suspension bridge in London built in 1886–1894.</string>
+    <string name="text4">The Temple of Heaven is an imperial complex of religious buildings situated in the southeastern part…</string>
+    <string name="text5">The Aegean Islands are within the sea and some bound it on its southern periphery…</string>
+
+    <string name="report_disease">रोगाचा अहवाल द्या</string>
+    <string name="age_group">रुग्णांचे वय समूह</string>
+    <string name="gender_of_patient">रुग्णाच्या </string>
+    <string name="date_of_report">अहवाल तारीख</string>
+    <string name="location">स्थान</string>
+    <string name="current_location">वर्तमान स्थान</string>
+    <string name="save_location">स्थान जतन करा</string>
+    <string name="edit_location">Edit Location</string>
+    <string name="male">पुरुष</string>
+    <string name="female">मादी</string>
+    <string name="report">अहवाल</string>
+    <string name="reports">अहवाल</string>
+
+    <string name="aadhaar_mandatory">Aadhaar Authentication is Mandatory for Hospital, Clinics and Media accounts.</string>
+    <string name="aadhaar_optional">Aadhaar Authentication is Optional for Citizen accounts.</string>
+</resources>

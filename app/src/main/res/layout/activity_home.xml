@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--CARD ONE-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="5dp"
+                android:id="@+id/cardViewOne"
+                android:layout_margin="20dp"
+                android:elevation="30dp"
+                app:cardBackgroundColor="@color/quantum_black_hint_text">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:animateLayoutChanges="true">
+                    <ImageView
+                        android:id="@+id/scaleone"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:src="@drawable/p3"
+                        android:adjustViewBounds="true"
+                        android:layout_gravity="center"
+                        android:scaleType="centerCrop"
+                        android:alpha="1"/>
+
+                    <ImageView
+                        android:id="@+id/imv"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp" />
+
+                    <LinearLayout
+                        android:id="@+id/layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_below="@+id/imv">
+
+                        <ImageView
+                            android:layout_width="47dp"
+                            android:layout_height="47dp"
+                            android:padding="11dp"
+                            android:layout_marginStart="7dp"
+                            android:layout_marginEnd="7dp"
+                            android:src="@drawable/down"/>
+                        <TextView
+                            android:id="@+id/textview"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:padding="10dp"
+                            android:paddingStart="0dp"
+                            android:textColor="@color/quantum_white_text"
+                            android:text="Real-Time Epidemic Mapping"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/llone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        android:orientation="vertical"
+                        android:layout_below="@+id/layout">
+
+                        <TextView
+                            android:id="@+id/diseaseMappingTV"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/quantum_white_text"
+                            android:textSize="20sp"
+                            android:padding="10dp"
+                            android:paddingStart="60dp"
+                            android:paddingEnd="15dp"
+                            android:drawableEnd="@drawable/right"
+                            android:text="Real-Time Disease Mapping"/>
+                        <TextView
+                            android:id="@+id/diseaseMappingTV2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/quantum_white_text"
+                            android:textSize="20sp"
+                            android:padding="10dp"
+                            android:paddingStart="60dp"
+                            android:paddingEnd="15dp"
+                            android:drawableEnd="@drawable/right"
+                            android:text="Disease Spread Projections"/>
+                        <TextView
+                            android:id="@+id/diseaseMappingTV3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/quantum_white_text"
+                            android:textSize="20sp"
+                            android:padding="10dp"
+                            android:paddingStart="60dp"
+                            android:paddingEnd="15dp"
+                            android:drawableEnd="@drawable/right"
+                            android:layout_marginBottom="10dp"
+                            android:text="Diseases Info"/>
+                    </LinearLayout>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!--CARD TWO-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="5dp"
+                android:id="@+id/cardViewTwo"
+                android:layout_margin="20dp"
+                android:elevation="20dp"
+                app:cardBackgroundColor="@color/quantum_black_hint_text">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:animateLayoutChanges="true">
+                    <ImageView
+                        android:id="@+id/scaletwo"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:src="@drawable/p4"
+                        android:adjustViewBounds="true"
+                        android:layout_gravity="center"
+                        android:scaleType="centerCrop"
+                        android:alpha="1"/>
+
+                    <ImageView
+                        android:id="@+id/imvtwo"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp" />
+
+                    <LinearLayout
+                        android:id="@+id/layoutb"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_below="@+id/imvtwo">
+
+                        <ImageView
+                            android:layout_width="47dp"
+                            android:layout_height="47dp"
+                            android:padding="11dp"
+                            android:layout_marginStart="7dp"
+                            android:layout_marginEnd="7dp"
+                            android:src="@drawable/down"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:padding="10dp"
+                            android:paddingStart="0dp"
+                            android:textColor="@color/quantum_white_text"
+                            android:text="Real-Time Epidemic Mapping"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/lltwo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        android:orientation="vertical"
+                        android:layout_below="@+id/layoutb">
+
+                        <TextView
+                            android:id="@+id/diseaseMappingTV1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/quantum_white_text"
+                            android:textSize="20sp"
+                            android:padding="10dp"
+                            android:paddingStart="60dp"
+                            android:paddingEnd="15dp"
+                            android:drawableEnd="@drawable/right"
+                            android:text="Real-Time Disease Mapping"/>
+                        <TextView
+                            android:id="@+id/diseaseMappingTV22"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/quantum_white_text"
+                            android:textSize="20sp"
+                            android:padding="10dp"
+                            android:paddingStart="60dp"
+                            android:paddingEnd="15dp"
+                            android:drawableEnd="@drawable/right"
+                            android:text="Disease Spread Projections"/>
+                        <TextView
+                            android:id="@+id/diseaseMappingTV33"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/quantum_white_text"
+                            android:textSize="20sp"
+                            android:padding="10dp"
+                            android:paddingStart="60dp"
+                            android:paddingEnd="15dp"
+                            android:drawableEnd="@drawable/right"
+                            android:layout_marginBottom="10dp"
+                            android:text="Diseases Info"/>
+                    </LinearLayout>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!--CARD THREE-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="5dp"
+                android:id="@+id/cardViewThree"
+                android:layout_margin="20dp"
+                android:elevation="10dp"
+                app:cardBackgroundColor="@color/quantum_black_hint_text">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:animateLayoutChanges="true">
+                    <ImageView
+                        android:id="@+id/scalethree"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:src="@drawable/p5"
+                        android:adjustViewBounds="true"
+                        android:layout_gravity="center"
+                        android:scaleType="centerCrop"
+                        android:alpha="1"/>
+
+                    <ImageView
+                        android:id="@+id/imvthree"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp" />
+
+                    <LinearLayout
+                        android:id="@+id/layoutc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_below="@+id/imvthree">
+
+                        <ImageView
+                            android:layout_width="47dp"
+                            android:layout_height="47dp"
+                            android:padding="11dp"
+                            android:layout_marginStart="7dp"
+                            android:layout_marginEnd="7dp"
+                            android:src="@drawable/down"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:padding="10dp"
+                            android:paddingStart="0dp"
+                            android:textColor="@color/quantum_white_text"
+                            android:text="User Details"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/llthree"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        android:orientation="vertical"
+                        android:layout_below="@+id/layoutc">
+
+                        <TextView
+                            android:id="@+id/threeone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/quantum_white_text"
+                            android:textSize="20sp"
+                            android:padding="10dp"
+                            android:paddingStart="60dp"
+                            android:paddingEnd="15dp"
+                            android:drawableEnd="@drawable/right"
+                            android:text="Profile"/>
+                        <TextView
+                            android:id="@+id/threetwo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/quantum_white_text"
+                            android:textSize="20sp"
+                            android:padding="10dp"
+                            android:paddingStart="60dp"
+                            android:paddingEnd="15dp"
+                            android:drawableEnd="@drawable/right"
+                            android:text="Sign Up / Update Profile"/>
+                        <TextView
+                            android:id="@+id/threethree"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/quantum_white_text"
+                            android:textSize="20sp"
+                            android:padding="10dp"
+                            android:paddingStart="60dp"
+                            android:paddingEnd="15dp"
+                            android:drawableEnd="@drawable/right"
+                            android:layout_marginBottom="10dp"
+                            android:text="Diseases Info"/>
+                    </LinearLayout>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="20dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottom_app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.BottomAppBar"
+        app:navigationIcon="@drawable/menu"
+        android:layout_gravity="bottom"
+        app:backgroundTint="@color/colorAccent"
+        app:fabAlignmentMode="center"
+        app:fabAnimationMode="slide"
+        android:layout_alignParentBottom="true"
+        android:layoutMode="opticalBounds"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#fff"
+        android:src="@drawable/check"
+        app:backgroundTint="#00ffffff"
+        app:layout_anchor="@id/bottom_app_bar" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
