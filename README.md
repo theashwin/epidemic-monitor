@@ -8,15 +8,19 @@ Our six-membered team was selected as one of the top 4 finalists for the problem
 ## Screenshots
 
 ### Homepage
+<p>
 <img src="screenshots/home-exp.jpg" width="49%">
 <img src="screenshots/home.jpg" width="49%">
+</p>
 
 ### Prediction of Cases over next 5 weeks
+<p>
 <img src="screenshots/em-predictions-1.jpg" width="19%">
 <img src="screenshots/em-predictions-2.jpg" width="19%">
 <img src="screenshots/em-predictions-3.jpg" width="19%">
 <img src="screenshots/em-predictions-4.jpg" width="19%">
 <img src="screenshots/em-predictions-5.jpg" width="19%">
+</p>
 
 ### Visualization
 <img src="screenshots/map.jpg" width="49%">
